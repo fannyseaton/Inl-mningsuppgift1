@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+}
+
+.h1rubrik{
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.h2rubrik{
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+}
+.bodyresponsive{
+    font-family: 'PT Sans', sans-serif;
+    width:100%;
+    height:auto;  
+}
+
+.section-one{
+    display: inline;
+    height: auto;
+
+}
+
+.flex-container {
+    height: 700px;
+    display: flex;
+    margin-left: 30px;
+    margin-top: 30px;
+    padding: 70px;
+}
+
+.responsive{
+    width:100%;
+    height:auto;  
+}
