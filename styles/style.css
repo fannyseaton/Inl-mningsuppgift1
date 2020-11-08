@@ -6,12 +6,20 @@
 
 .h1rubrik{
     text-align: center;
-    font-family: 'PT Sans', sans-serif;
+    font-family: sans-serif;
+    position: relative;
+    top: 75px;
+    font-size: 28px;
 }
 
 .h2rubrik{
     text-align: center;
-    font-family: 'PT Sans', sans-serif;
+    font-family: sans-serif;
+    color:rgb(60, 60, 60);
+    font-size: 50px;
+    position: relative;
+    top: -80px;
+    left: 150px;
 }
 .bodyresponsive{
     font-family: 'PT Sans', sans-serif;
@@ -22,7 +30,12 @@
 .section-one{
     display: inline;
     height: auto;
+}
 
+.topyoutube{
+    max-width: 70%;
+    margin: auto;
+    text-align: right; 
 }
 
 .flex-section{
@@ -34,6 +47,7 @@
     display: flex;
     justify-content: space-between;
     padding-top: 30px;
+    margin-left: 100px;
 }
 
 @media (max-width: 800px) {
@@ -42,6 +56,28 @@
     }
   }
 
+.flex-container2{
+    height: 1000%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    flex-direction: row;
+}
+
+.flex-item-text2 > p{
+    margin-top: 25px;
+    padding-top: 150px;
+}
+
+.flex-item-text2{
+    width: 50%;
+    padding-left: 30px;
+}
+
+.flex-item-image{
+    width: 50%;
+}
+
 .flex-item-text > p {
     margin-top: 25px;
 }
@@ -49,13 +85,7 @@
 .flex-item-text{
     width: 50%;
     padding-left: 30px;
-}
-
-.flex-item-image{
-    width:50%;
-    position: relative;
-    bottom: 150px;
-    left: 20px;
+    padding-top: 180px;
 }
 
 .responsive{
@@ -64,21 +94,87 @@
     display: block;
 }
 
+.black{
+    max-width: 100%;
+    height: 600px;
+    background-color: black;
+}
+
+.boring-text{
+    max-width: 60%;
+    margin: auto;
+}
+
+.boring-text > p {
+    margin-bottom: 50px;
+}
+
 .totw{
     width: 100%;
+    height: 600px;
     padding-bottom: 0px;
+    padding-top: 200px;
+    background-image: url(../images/Q1_newsletter-02.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.totw-grid{
+    max-width: 60%;
+    margin: auto;
+    display: grid;
+    grid-template-rows: 150px auto;
 }
 
 .totw-text{
-    width: 60%;
-    margin: auto;
-    transform: translateY(280%);
+    text-align: center;
+    font-size: 28px;
+    color: grey;
+}
+
+.totw-header{
+    font-size: 60px;
+    font-family: monsterrat;
+    text-align: center;
 }
 
 footer{
     background: black;
 }
 
-footer > p, h1 {
+footer > p {
     color: whitesmoke;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto 10px auto;
+  grid-gap: 10px;
+  padding: 10px;
+  max-width: 60%;
+  margin: auto;
+}
+
+.grid-container > div {
+  padding: 20px 10px;
+  color: whitesmoke;
+}
+
+.grid-header{
+    grid-column: 1 / 2 span;
+    padding-left: 0px;
+}
+
+.grid-welookforward{
+    text-align: right;
+}
+
+.grid-pubteam{
+    grid-column: 1 / 2 span;
+    text-align: right;
+}
+
+.grid-pubteam > p {
+    /*margin-right: 150px;*/
 }
